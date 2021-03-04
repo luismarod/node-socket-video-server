@@ -34,6 +34,6 @@ io.on('connection', function (socket) {
 
 
 
-server.listen(process.env.PORT, () => {
-  console.log(`Corriendo en puerto ${process.env.PORT}`)
+server.listen(PORT, () => {
+  console.log(`Corriendo en puerto ${PORT}`)
 })
